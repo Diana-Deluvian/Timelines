@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+}
+
+section {
+	height: 20%;
+	width: 100%;
+	background: pink;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 80%;
+}
+
+.sidebar {
+	width: 20%;
+	background: orange;
+}
+
+/*SVG FORMATTING*/
+
+svg text {
+   fill: yellow;
+   font: 24px sans-serif;
+   text-anchor: end;
+}
+
+svg {
+	margin: 0 auto;
+}
