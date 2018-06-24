@@ -22,11 +22,25 @@ section {
 /*SVG FORMATTING*/
 
 svg text {
-   fill: yellow;
+   fill: black;
    font: 24px sans-serif;
-   text-anchor: end;
+   text-anchor: middle;
 }
 
 svg {
+	width: 80%;
 	margin: 0 auto;
+}
+
+svg line {
+	stroke: red;
+	stroke-width: 2;
+}
+
+.mainBranch {
+	stroke-width: 10;
+}
+
+.charName {
+	font: 18px sans-serif;
 }
